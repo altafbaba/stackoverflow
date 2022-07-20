@@ -1,0 +1,11 @@
+<mat-card style="margin: 90px">
+  <div style="display: flex; padding-left: 150px">
+    <h1 style="font-family: fantasy">User Datails</h1>
+  </div>
+  <mat-card-header>
+    <img [src]="itm?.owner.profile_image" alt="" />
+    <mat-card-title>{{ itm?.owner.display_name }}</mat-card-title>
+    <mat-card-subtitle>{{ itm?.owner.user_type }}</mat-card-subtitle>
+    <mat-card-subtitle>Link : {{ itm?.owner.link }}</mat-card-subtitle>
+  </mat-card-header>
+</mat-card>
